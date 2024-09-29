@@ -12,7 +12,10 @@ import LinearGradient from 'react-native-linear-gradient';
 
 import { DeviceInterface } from '../files/devices';
 
-
+/**
+ * SacnningModalProps interface
+ * @attribute   {boolean}   visible         Determines if the modal is visible or not
+ */
 interface ScanningModalProps {
     visible: boolean;
     foundDevices: DeviceInterface[];

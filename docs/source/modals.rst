@@ -1,7 +1,6 @@
 ============
 Modals
 ============
-.. autoclass:: modals.ScanningModal
-    :members:
-    :undoc-members:
-
+.. module:: src.modals.testing
+.. autofunction:: linkDensity
+.. autoclass:: modals.testing.Bing

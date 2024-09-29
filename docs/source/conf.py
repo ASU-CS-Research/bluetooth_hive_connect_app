@@ -18,7 +18,8 @@ extensions = ["sphinx_js"]
 templates_path = ['_templates']
 exclude_patterns = []
 
-
+import sys, os
+sys.path.insert(0, os.path.abspath('../../src'))
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
@@ -28,6 +29,6 @@ html_static_path = ['_static']
 
 # -- Options for sphinx-js ---------------------------------------------------
 js_language = 'typescript'
-js_source_path = "../../src"
-jsdoc_config_path = "../../typedoc.config.mjs"
+js_source_path = "../../"
+jsdoc_config_path = "../../tsconfig.json"
 primary_domain = 'js'
