@@ -7,7 +7,8 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "docs": "jsdoc -c jsdoc.json -d docs/out"
   },
   "dependencies": {
     "@react-navigation/material-top-tabs": "^6.6.13",
@@ -49,12 +50,14 @@
     "@types/react-native-base64": "^0.2.2",
     "@types/react-test-renderer": "^18.0.0",
     "babel-jest": "^29.6.3",
+    "better-docs": "^2.7.3",
     "eslint": "^8.57.1",
     "eslint-plugin-react": "^7.36.1",
     "eslint-plugin-react-native": "^4.1.0",
     "eslint-plugin-tsdoc": "^0.3.0",
     "globals": "^15.9.0",
     "jest": "^29.6.3",
+    "jsdoc": "^4.0.3",
     "prettier": "2.8.8",
     "react-test-renderer": "18.2.0",
     "typescript": "5.0.4",
